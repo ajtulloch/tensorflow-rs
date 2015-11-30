@@ -1,0 +1,3 @@
+* =tensorflow-rs=
+
+Simple bindings to TensorFlow using the C API and rust-bindgen.

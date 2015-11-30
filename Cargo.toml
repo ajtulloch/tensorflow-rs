@@ -1,0 +1,17 @@
+[package]
+name = "tensorflow-rs"
+version = "0.1.0"
+authors = ["Andrew Tulloch <andrew@tullo.ch>"]
+build = "build.rs"
+description = "Tensorflow FFI bindings for Rust"
+license = "BSD-3-Clause"
+homepage = "https://github.com/ajtulloch/tensorflow.rs/"
+documentation = "https://github.com/ajtulloch/tensorflow.rs/"
+repository = "https://github.com/ajtulloch/tensorflow.rs/"
+
+[dependencies]
+libc = "0.1"
+# clippy = "*"
+
+[build-dependencies]
+bindgen = "0.15"
